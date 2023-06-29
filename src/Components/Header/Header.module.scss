@@ -1,11 +1,17 @@
 .header {
-  display: flex;
   max-width: 1728px;
   padding: 0rem 4.375rem;
+  padding: 45px 0px;
+}
+
+
+.container{
+  max-width: 1590px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 45px 0px;
-  margin: 0 auto;
+  margin:0 auto;
+
 }
 
 .navigation {
@@ -23,7 +29,7 @@
 
 
 .logo {
-  margin: 0 2rem;
+  margin-right:2rem;
 }
 
 .link {
@@ -67,7 +73,6 @@
 .cart {
   background-color: #fff;
   border: none;
-  margin-right: 2rem;
   cursor: pointer;
 }
 

@@ -19,7 +19,7 @@ const Footer = () => {
           <p>Contact Info</p>
           <a href="#">skilltostart@gmail.com</a>
         </div>
-        <p>© Skill to Start 2023 All rights reserved</p>
+        <p className={styles.copyright}>© Skill to Start 2023 All rights reserved</p>
         <div className={styles.social}>
           <a href="#">
             <img className={styles.socialicon} src={facebook} />

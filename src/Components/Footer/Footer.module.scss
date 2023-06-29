@@ -20,10 +20,13 @@
 .contactinfo {
   display: flex;
   flex-direction: column;
+  row-gap: 1rem;
   font-weight: 300;
   font-size: 1.5rem;
-  a {
+  
+  p, a {
     color: #fff;
+    font-weight: 300;
   }
 }
 
@@ -80,4 +83,9 @@
   border-radius: 12px;
   background: #005480;
   cursor: pointer;
+}
+
+.copyright{
+  font-weight: 400;
+  font-size: 14px;
 }

@@ -9,6 +9,7 @@ import vector from "./../../assets/Vector.svg";
 const Header = () => {
   return (
     <header className={styles.header}>
+      <div className={styles.container}>
       <a className={styles.logo} href="#">
         <img src={logo} />
       </a>
@@ -42,6 +43,7 @@ const Header = () => {
       <button className={styles.cart}>
         <img className={styles.cartimg} src={cart} />
       </button>
+      </div>
     </header>
   );
 };
