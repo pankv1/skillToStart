@@ -26,6 +26,8 @@
 }
 
 .button {
+  font-weight:400;
+  position: relative;
   color: #fff;
   font-size: 2.5rem;
   padding: 22px 130px 22px 60px;
@@ -33,6 +35,13 @@
   background: #1831b7;
   box-shadow: 24px 24px 48px 0px rgba(0, 0, 0, 0.1);
   border: none;
+  cursor: pointer;
+}
+
+.buttonvector{
+  position: absolute;
+  top:2.2rem;
+  right:75px;
 }
 
 .buttonbox {

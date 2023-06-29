@@ -19,7 +19,7 @@ const Reviews = () => {
     <section className={styles.root}>
       <div className={styles.container}>
         <button className={styles.button}>
-          Информация о Нидерландах{" "}
+          Информация о Нидерландах
           <span>
             <img className={styles.buttonvector} src={buttonvector} />
           </span>

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Relocations.module.scss";
 
 import canal from "../../../../assets/canal.png";
+import buttonvector from '../../../../assets/buttonvector.svg'
 
 const Relocation = () => {
   return (
@@ -14,7 +15,7 @@ const Relocation = () => {
         </h3>
       </div>
       <div className={styles.buttonbox}>
-        <button className={styles.button}>Записаться на консультацию</button>
+        <button className={styles.button}>Записаться на консультацию<span><img className={styles.buttonvector} src={buttonvector} /></span></button>
       </div>
     </section>
   );
