@@ -1,0 +1,102 @@
+.root {
+  margin-top: 10rem;
+}
+.title {
+  color: #000;
+  margin-bottom: 6.25rem;
+}
+
+.container {
+  max-width: 1520px;
+  position: relative;
+  height: 1400px;
+}
+
+.circlecontainer {
+  background-color: #fff7ee;
+  height: 478px;
+  width: 472px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+}
+
+.firstcircle {
+  left: 0;
+  z-index: 12;
+}
+
+.secondcircle {
+  right: 0;
+}
+
+.circlebg {
+  position: absolute;
+  top: 10rem;
+  left: 14rem;
+}
+
+.thirdcircle {
+  left: 5rem;
+  top: 50rem;
+}
+
+.fourthcircle {
+  right: 15rem;
+  top: 38rem;
+}
+
+.content {
+  text-align: center;
+  max-width: 370px;
+}
+
+.circletitle {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.consultbutton {
+  color: white;
+  position: absolute;
+  bottom: 10rem;
+  right: 0;
+  width: 486px;
+  height: 102px;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  background: linear-gradient(180deg, #9bb4ff 0%, #1f34ba 100%);
+  box-shadow: 24px 24px 48px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.showbutton {
+  color: black;
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  width: 486px;
+  height: 102px;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 24px 24px 48px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.startsvg {
+  position: relative;
+  text-align: center;
+  margin-right: 20rem;
+}
+
+.startvector {
+  position: absolute;
+  bottom: -15rem;
+  left: 30rem;
+}

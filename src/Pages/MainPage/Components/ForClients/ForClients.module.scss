@@ -1,0 +1,43 @@
+.root {
+  margin-top: 27rem;
+  margin-bottom: 10rem;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.clientcontainer {
+  margin-bottom: 4rem;
+}
+
+.title {
+  color: #14183e;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.revtitle {
+  color: #5e6282;
+  font-weight: 500;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.content {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.clientpicture {
+  height: 195px;
+  width: 195px;
+}
+
+.description {
+  color: #5e6282;
+  font-size: 2.25rem;
+  font-weight: 300;
+}

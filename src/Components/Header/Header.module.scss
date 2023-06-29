@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  max-width: 1728px;
+  padding: 0rem 4.375rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  column-gap:2.5rem;
+  :nth-child(2){
+    width: 7.4rem;
+  }
+  :nth-child(3){
+    width: 17rem;
+  }
+
+}
+
+
+.logo {
+  margin: 0 2rem;
+}
+
+.link {
+  color: #000;
+  font-size: 1.5rem;
+  font-family: Jost;
+  width: 6rem;
+  text-align: center;
+  margin:0;
+  padding:0;
+
+  &:active{
+    font-weight: 700;
+  }
+}
+
+.login {
+  color: #c0242a;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem 3.2rem;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.language {
+  position: relative;
+  font-size: 1.5rem;
+  color: #212832;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.languagechoice {
+  position: absolute;
+  top: 4px;
+}
+
+.cart {
+  background-color: #fff;
+  border: none;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.cartimg {
+  height: 1.5rem;
+  width: 1.5rem;
+}

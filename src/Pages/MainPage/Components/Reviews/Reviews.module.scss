@@ -1,0 +1,92 @@
+.root {
+  background-image: url("../../../../assets/revbg.png");
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: relative;
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review {
+  width: 636px;
+  position: relative;
+  border-radius: 12px;
+  background: #f5f6f7;
+  box-shadow: 7px 16px 9px 0px rgba(0, 0, 0, 0.25);
+  padding: 3.75rem 2.5rem 2.5rem 2.5rem;
+  align-self: baseline;
+}
+
+.avatar {
+  position: absolute;
+  top: -4rem;
+}
+
+.description {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.clientname {
+  font-weight: 300;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.pagination {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: end;
+  column-gap: 2.5rem;
+}
+
+.buttonpag {
+  padding: 1.25rem 1.75rem;
+  background-color: #c9c9c9;
+  border-radius: 12px;
+  cursor: pointer;
+  &:active {
+    background-color: #3f55cb;
+  }
+  transition: 0.15s;
+}
+
+.button {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 22px 200px 22px 128px;
+  border-radius: 100px;
+  background: linear-gradient(180deg, #5ec3cd 4.69%, #0d0cb5 100%);
+  box-shadow: 24px 24px 48px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 35rem;
+}
+
+.buttonvector {
+  position: absolute;
+  top: 36px;
+  right: 140px;
+}
+
+.vectorsvg {
+  position: absolute;
+  top: 8rem;
+  right: 14rem;
+}
+
+.moresvg {
+  position: absolute;
+  right: -10rem;
+  top: -4rem;
+}

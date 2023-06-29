@@ -1,0 +1,77 @@
+.root {
+  margin-top: 27rem;
+  position: relative;
+  background-image: url("../../../../assets/productbg.svg");
+  background-repeat: no-repeat;
+  padding: 18rem 0;
+  background-size: cover;
+}
+
+.content {
+  max-width: 1576px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 10rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  column-gap: 2rem;
+  margin-bottom: 10rem;
+  position: relative;
+}
+
+.producttitle {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 2.25rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background: none;
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: 300;
+  position: relative;
+  padding: 0px 24px 0px 10px;
+}
+
+.productvector {
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
+
+.svgvector {
+  position: absolute;
+  left: 6rem;
+  bottom: -20rem;
+}
+
+.svgteams {
+  position: absolute;
+  left: 40rem;
+  bottom: -16rem;
+}
+
+.svgclients {
+  position: absolute;
+  left: 48rem;
+  bottom: -24rem;
+}
+
+.planessvg {
+  position: absolute;
+  top: -12rem;
+  right: -4rem;
+}
